@@ -1,7 +1,6 @@
 import ui as ui
 import sys
 import time
-import threading
 lista = []
 
 def main(lista):
