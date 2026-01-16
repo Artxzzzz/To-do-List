@@ -1,4 +1,4 @@
-from ..manager import remove
+from manager import remove
 
 def removeitem(itemslist: list): # Função de remover
     while True: # Loop

@@ -1,4 +1,4 @@
-from .. import models, utils
+from packages import models, utils
 
 def add(itemslist: list, name: str) -> list:
     horario, data = utils.getTime()

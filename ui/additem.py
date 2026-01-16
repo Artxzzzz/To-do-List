@@ -1,4 +1,4 @@
-from ..manager import add
+from manager import add
 
 def additem(itemsList: list) -> list: # Função de adicionar item
     itemName = input("Qual é o item que você quer adicionar? ") # Perguntar nome do item

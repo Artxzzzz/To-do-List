@@ -1,4 +1,5 @@
 from datetime import datetime
+import json
 
 
 def getTime() -> str: # Função de conseguir o horário
@@ -17,3 +18,11 @@ def risk(text: str) -> str:
         newtext.append(char + "\u0336")
 
     return ''.join(newtext)
+
+def openJson(path) -> dict:
+    with open(path, 'r') as f:
+        return json.load(f)
+    
+def writeJson(path, data) -> None:
+    with open(path, 'w') as f:
+        json.dump(data, f, indent=4)

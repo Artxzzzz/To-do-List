@@ -1,4 +1,4 @@
-from .. import utils
+from packages import utils
 
 def showList(lista):
     toReturn = []

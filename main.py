@@ -1,4 +1,4 @@
-import packages.ui as ui
+import ui as ui
 import sys
 import time
 import threading

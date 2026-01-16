@@ -1,4 +1,4 @@
-from ..manager import complete
+from manager import complete
 
 def completeitem(itemslist: list):
 
