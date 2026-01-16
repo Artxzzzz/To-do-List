@@ -1,4 +1,4 @@
-from packages import ui
+import packages.ui as controller
 import sys
 import time
 import threading
@@ -6,18 +6,18 @@ lista = []
 
 def main(lista):
     if lista: # Checar se a lista é válida
-        toLoop = ui.showList(lista)
+        toLoop = controller.showList(lista)
                 
         for i in toLoop:
             print(i) # Amostrar cada item da lista
             
     while True:
-        escolha = ui.options(lista)
+        escolha = controller.options(lista)
 
         match int(escolha):
             case 1:
                 """Lógica de adicionar"""
-                lista = ui.additem(lista) # Adicionar a lista o item
+                lista = controller.additem(lista) # Adicionar a lista o item
             case 2:
                 """Lógica de remover"""
                 print(2) # Para fazer (incompleto)
@@ -28,7 +28,7 @@ def main(lista):
                 sys.exit() # Sair
 
         if lista: # Checar se a lista é válida
-            toLoop = ui.showList(lista)
+            toLoop = controller.showList(lista)
                     
             for i in toLoop:
                 print(i) # Amostrar cada item da lista

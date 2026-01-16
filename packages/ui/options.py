@@ -1,20 +1,4 @@
-from packages import utils
 import time
-
-def additem(itemsList: list) -> list:
-    itemName = input("Qual é o item que você quer adicionar? ")
-
-    horario, data = utils.getTime()
-
-    template = {
-        "Name": itemName,
-        "Horario": horario,
-        "Data": data,
-        "Id": len(itemsList)+1
-    }
-    
-    itemsList.append(template)
-    return itemsList
 
 def options(itemsList) -> int:
     """Aqui é as opções de o que fazer na lista"""
@@ -53,15 +37,3 @@ def options(itemsList) -> int:
             escolha = v
     
     return escolha
-            
-
-def showList(lista):
-    toReturn = []
-    
-    for item in lista:
-        toReturn.append(f"[{item['Id']}] - {item['Name']}")
-    
-    return toReturn
-
-if __name__ == "__main__":
-    options([])
