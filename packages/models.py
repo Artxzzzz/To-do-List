@@ -3,3 +3,7 @@ class item: # Objeto item
         self.name = name # Nome
         self.hour = hour # Horário que foi feito
         self.date = date # Data
+        self.complete = False
+
+    def completeModule(self):
+        self.complete = True

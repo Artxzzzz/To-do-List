@@ -23,7 +23,7 @@ def main(lista):
                 lista = ui.removeitem(lista)
             case 3:
                 """Lógica de completar"""
-                print(3) # Para fazer (incompleto)
+                lista = ui.completeitem(lista)
             case 4:
                 sys.exit() # Sair
 
