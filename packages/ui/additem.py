@@ -1,10 +1,8 @@
-from .. import utils, models
+from ..manager import add
 
 def additem(itemsList: list) -> list:
     itemName = input("Qual é o item que você quer adicionar? ")
 
-    horario, data = utils.getTime()
-    
-    item = models.item(name=itemName, hour=horario, date=data, idx=len(itemsList)+1)
-    itemsList.append(item)
+    itemsList = add(itemsList, itemName)
+
     return itemsList
