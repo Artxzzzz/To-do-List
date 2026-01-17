@@ -1,9 +1,13 @@
 import ui as ui
+import manager.config as config
 import sys
 import time
 lista = []
 
 def main(lista):
+    lista = config.load()
+    print(lista)
+
     if lista: # Checar se a lista é válida
         toLoop = ui.showList(lista)
                 
@@ -11,6 +15,7 @@ def main(lista):
             print(i) # Amostrar cada item da lista
             
     while True:
+
         escolha = ui.options(lista)
 
         match int(escolha):
@@ -32,6 +37,7 @@ def main(lista):
             for i in toLoop:
                 print(i) # Amostrar cada item da lista
 
+        config.save(lista)
         time.sleep(1)
 
 if __name__ == "__main__":
