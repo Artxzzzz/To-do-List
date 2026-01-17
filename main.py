@@ -6,16 +6,16 @@ lista = []
 
 def main(lista):
     lista = config.load()
-    print(lista)
 
     if lista: # Checar se a lista é válida
         toLoop = ui.showList(lista)
                 
         for i in toLoop:
             print(i) # Amostrar cada item da lista
+        time.sleep(0.5)
             
     while True:
-
+        print('------------------------------------')
         escolha = ui.options(lista)
 
         match int(escolha):

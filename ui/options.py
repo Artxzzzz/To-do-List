@@ -8,7 +8,7 @@ def options(itemsList) -> int:
         "Completar item": 3,
         "Sair": 4,
     }
-    print("\n")
+
     for k, v in opt.items(): # Loop que amostra todas as opções
         print(f'[{v}] - {k}') # Formatar para ficar igual esse exemplo: "[1] - Adicionar item"
 
