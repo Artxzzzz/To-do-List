@@ -2,10 +2,10 @@
 --------------------------------------------------------
 # To-do List
 
-## 🔒 Licença
+## 🔒 Licença:
 * Este projeto está licenciado sob a [` GNU General Public License v3.0 `](\license)
 
-### 💡 Exemplos de uso
+### 💡 Exemplos de uso:
 ``` bash
 1 - [X] - Programar
 ------------------------------------
@@ -54,10 +54,8 @@ Qual é o item que você quer adicionar? Fazer exercícios
     pyinstaller --onefile main.py
     ```
 
-### Contribuindo para o projeto
 
-
-### ✍️ Como contribuir
+### ✍️ Como contribuir:
 
   
 
