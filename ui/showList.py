@@ -2,7 +2,7 @@ from packages import utils
 
 def showList(lista):
     toReturn = []
-    
+    print('------------------------------------')
 
     for idx, item in enumerate(lista): # Listar o item e o id
         match item.complete:
