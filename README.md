@@ -29,12 +29,12 @@ Qual é o item que você quer adicionar? Fazer exercícios
 
 ### ⚙️ Requisitos:
 * 🐍 `Python 3.13.3` ou superior
-* 📚 Este projeto não utiliza nenhum dependência python
+* 📚 Este projeto não utiliza nenhum dependências python
 
 ### ▶️ Como executar:
 * Baixe ou clone o repositório usando 
     ``` bash
-    https://github.com/Artxzzzz/To-do-List.git
+    git clone https://github.com/Artxzzzz/To-do-List.git
     ```
 * Na pasta do projeto execute:
 
