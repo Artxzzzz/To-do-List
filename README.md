@@ -3,7 +3,7 @@
 # To-do List
 
 ## 🔒 Licença:
-* Este projeto está licenciado sob a [` GNU General Public License v3.0 `](\license)
+* Este projeto está licenciado sob a [` GNU General Public License v3.0 `](LICENSE)
 
 ### 💡 Exemplos de uso:
 ``` bash
